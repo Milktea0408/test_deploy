@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:1337';
+const BASE_URL = 'https://test-deploy-ip2q.onrender.com';
 
 fetch(`${BASE_URL}/api/test-users?populate=*`) 
   .then((response) => {
