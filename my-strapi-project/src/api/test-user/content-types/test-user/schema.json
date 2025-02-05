@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_users",
+  "info": {
+    "singularName": "test-user",
+    "pluralName": "test-users",
+    "displayName": "test_user"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
